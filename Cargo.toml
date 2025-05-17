@@ -1,0 +1,13 @@
+[package]
+name = "rust-shapefile-read"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "^0.8.4"
+rstar = "^0.12.2"
+serde = { version = "^1.0.219", features = ["derive"] }
+shapefile = "^0.7.0"
+tokio = { version = "^1.45.0", features = ["rt-multi-thread", "macros"] }
+tracing = "^0.1.41"
+tracing-subscriber = { version = "^0.3.19", features = ["json"] }
