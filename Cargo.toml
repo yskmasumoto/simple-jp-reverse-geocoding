@@ -1,5 +1,5 @@
 [package]
-name = "rust-shapefile-read"
+name = "simple-jp-reverse-geocoding"
 version = "0.1.0"
 edition = "2024"
 
